@@ -1,0 +1,30 @@
+{
+    "name": "breaddevil/online-bdd",
+    "description": "online bdd",
+    "minimum-stability": "stable",
+    "license": "tobedefined",
+    "authors": [
+        {
+            "name": "author's name",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "behat/behat": "2.4.*@stable",
+        "behat/mink": "1.4.*@stable",
+        "behat/mink-extension": "*",
+        "behat/mink-goutte-driver": "*",
+        "behat/mink-selenium2-driver": "*",
+
+        "silex/silex": "~1.1",
+        "symfony/security": "~2.3",
+        "twig/twig": ">=1.8,<2.0-dev",
+
+        "helios-ag/fm-elfinder-php-connector": "dev-master"
+    },
+    "minimum-stability": "dev",
+
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
