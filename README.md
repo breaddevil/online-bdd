@@ -3,7 +3,7 @@ online-bdd
 
 Create tests and run them through a web interface
 
-I put together this basic website for a client so that he can create/edit features online (without git,ftp,..) and have immediate feedback.
+I put together this basic website for a client so that he can create/edit features online (without ftp, file transfer over email, ...) and have immediate feedback.
 
 There are 2 parts in this project:
 
