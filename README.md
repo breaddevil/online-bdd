@@ -3,20 +3,20 @@ online-bdd
 
 Create tests and run them through a web interface
 
-I put together this basic website for a client so that he can create/edit features online (without fit,ftp,..) and have immediate feedback.
+I put together this basic website for a client so that he can create/edit features online (without git,ftp,..) and have immediate feedback.
 
 There are 2 parts in this project:
 
 The client
 ----------
-elFinder with a custom "test" command that run the test and display the output.
+elFinder with a custom "test" command that runs the test and display the output.
 
 elFinder uses the ace editor for gherkin syntax highlighting.
 
 
 The server
 ----------
-Using silex framework for basic security and routes and elFinder as the connector.
+Using silex framework for basic security and routes and behat for the tests.
 
 Default credentials: `admin:tester`
 
